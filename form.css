@@ -1,0 +1,97 @@
+/* Changing the browsers default settings */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ff7878;
+  color: white;
+  background-image: url(/bg-intro-desktop.png);
+}
+
+h4 {
+  color: #022944;
+  line-height: 45px;
+  font-size: 10px;
+}
+#terms {
+  color: #f50e0e;
+  line-height: 35px;
+  /* justify-content: center; */
+}
+
+#btn {
+  background-color: #098254;
+  color: #fff;
+  padding: 9px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#btn1 {
+  background-color: #5d54a3;
+  color: #fff;
+  padding: 9px;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.maincontainer {
+  display: flex;
+  margin-top: 80px;
+  height: 100%;
+  padding: 160px 160px 20px;
+  width: 100%;
+}
+
+.maincontainer1 {
+  margin-top: 100px;
+  margin-right: 15px;
+  padding-right: 100px;
+}
+
+.Address-info {
+  width: 100%;
+}
+
+.Reg-form {
+  width: 100%;
+  margin: auto;
+  background-color: #fff;
+  display: block;
+  flex-direction: column;
+  padding: 20px;
+  font-size: large;
+  border-radius: 5px;
+  gap: 50px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #757c88;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+#contact {
+  width: 100%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .Sectioncontainer {
+    width: 70%;
+    margin: auto;
+  }
+  .maincontainer {
+    flex-direction: column;
+  }
+  .maincontainer1 {
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+}
