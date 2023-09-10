@@ -10,6 +10,12 @@ body {
   color: white;
   background-image: url(/bg-intro-desktop.png);
 }
+h1 {
+  line-height: 30px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
 
 h4 {
   color: #022944;
@@ -25,7 +31,7 @@ h4 {
 #btn {
   background-color: #098254;
   color: #fff;
-  padding: 9px;
+  padding: 20px;
   border-radius: 5px;
   width: 100%;
 }
@@ -33,10 +39,18 @@ h4 {
 #btn1 {
   background-color: #5d54a3;
   color: #fff;
-  padding: 9px;
+  padding: 26px;
   border-radius: 5px;
   width: 100%;
   margin-bottom: 20px;
+}
+
+.p-tag {
+  font-weight: 600;
+  font-style: oblique;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
 }
 
 .maincontainer {
@@ -84,14 +98,28 @@ input {
 
 @media screen and (max-width: 900px) {
   .Sectioncontainer {
-    width: 70%;
     margin: auto;
   }
   .maincontainer {
     flex-direction: column;
+    padding: 30px;
+    width: 100vw;
+    text-align: center;
+    margin-top: 0%;
   }
   .maincontainer1 {
-    line-height: 25px;
+    line-height: 20px;
     margin-bottom: 10px;
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Sectioncontainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .maincontainer {
+    width: 100%;
   }
 }
